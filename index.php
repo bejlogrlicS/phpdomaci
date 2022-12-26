@@ -19,7 +19,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
         header('Location: pocetna.php');
         exit();
     }else{
-        $poruka="Pogrešno korisničko ime ili lozinka!";
+        $poruka="Pogrešno korisničko ime ili lozinka!!!";
     }
 
 }
